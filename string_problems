@@ -1,0 +1,55 @@
+console.log("Try programiz.pro");
+
+// reversing a string 
+let str ="Monkey d Luffy!";
+let arr = str.split("");
+let b = str.length - 1;
+
+for(let i =0; i<arr.length; i++) {
+    console.log(str.charAt(b));
+    b--;
+}
+
+console.log("-------------------------")
+
+// checking a palindrome
+const c = prompt("input the string to check:");
+let reverse = "";
+let length = c.length -1;
+for(let i=0; i<=c.length-1; i++) {
+    // console.log("last character to first", c.charAt(length));
+    reverse += c.charAt(length);
+    console.log("adding every in stage:",reverse);
+    length--;
+}
+
+if(c == reverse){
+    console.log("palindrome");
+} else {
+    console.log("not palindrome");
+}
+
+
+//checking vowels and consonants 
+const d = prompt("input a value: ");
+let vowelscount = "";
+let consonantcount = "";
+let vowe = [];
+let conso = [];
+for(let i=0; i<d.length -1; i++) {
+    let value = d.charAt(i);
+    if(value == 'a' ||value == 'e' ||value == 'i' ||value == 'o' ||value == 'u'){
+        vowe.push(value);
+        //console.log("the character ", value, " is vowel")
+        vowelscount++;
+    }else {
+        conso.push(value);
+        // console.log("the character ", value , "is consonant");
+        consonantcount++;
+    }
+}
+console.log(d);
+console.log(vowe);
+console.log(conso);
+console.log(vowelscount);
+console.log(consonantcount);
