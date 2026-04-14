@@ -1,0 +1,23 @@
+// p = principle amount taken
+// t = time 
+// r = rate of interest 
+let p = 10000;
+let t = 2;
+let r = 5;
+
+function simpleInterest(p,t,r){
+    let SI = p *t * r / 100;
+    console.log(SI);
+}
+simpleInterest(p,t,r);
+
+let simpleinterest = function(p,t,r) {
+    let si = p*t*r/100;
+    console.log(si);
+}
+simpleinterest(5000,3,5);
+
+let si = (p,t,r) => {
+    return p *t*r /100;
+};
+console.log(si(20000,2,2));
