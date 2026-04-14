@@ -21,3 +21,12 @@ let si = (p,t,r) => {
     return p *t*r /100;
 };
 console.log(si(20000,2,2));
+
+
+
+// square and multiply using arrow function
+const square = (x) => x*x
+console.log(square(Number(prompt("Input a number: "))));
+// console.log(a);
+const multiply = (a,b,c) => a*b*c
+console.log(multiply(5,5,5));
