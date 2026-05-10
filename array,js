@@ -1,0 +1,40 @@
+// let a = 5;
+// let movies1 = new movies ();
+// for(let i=0; i<a; i++){
+//     movies1.push[i]
+// }
+
+// for(let i=0; i<a; i++){
+//     console.log(movies[i]);
+// }
+
+
+let movies =["bahubali", "saalar","kalki"]
+console.log(movies);
+console.log(movies.sort());
+console.log(movies.sort(). reverse());
+console.log(movies[1]);
+
+
+let cinemas = ["salaar", "spirit", "darling"];
+console.log(cinemas);
+cinemas.push("mirchi");
+console.log(cinemas);
+cinemas.unshift("rebel");
+console.log(cinemas);
+cinemas.pop();
+console.log(cinemas);
+cinemas.shift();
+console.log(cinemas);
+
+
+let numbers = [1,2,4,5,6,7,8,9];
+console.log(numbers);
+numbers.splice(2, 3,33,333,3333);
+console.log(numbers)
+
+
+let nums = [10,20,30,40,50,60];
+console.log(nums);
+
+console.log(nums.slice(0, 3));
